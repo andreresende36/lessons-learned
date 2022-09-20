@@ -24,16 +24,15 @@ body{
     border-radius: 5%;
     box-shadow: 2px 2px 6px rgb(78, 78, 78);
     margin: 100px 10px 10px 0px ;
-    float: right;
     width: 290px;
     border: 2px solid white;
 }
 #temas{
     display: inline-block;
     width: 75%;
-    height: 750px;
+    height: 290px;
     margin-top: 100px;
-    z-index: 1;
+    /* z-index: 1; */
     /* border: 2px solid red; */
 }
 #licoes_aprendidas{
@@ -53,7 +52,9 @@ span{
     display: inline-block;
     position: absolute;
     width: 360px;
+    height: 300px;
     margin: 16px 0 0 13px;
+    overflow: auto;
     /* border: 2px solid red; */
 }
 table, th, td{
@@ -72,24 +73,23 @@ table, th, td{
     color: rgb(39, 38, 38);
     font-weight: bold;
 }
-article{
-    display: inline-block;
+.lado-esquerdo{
     width: 73.5%;
     height: 130px;
     margin-top: 10px;
+    float: left;
     /* border: 2px solid red; */
     text-align: justify;
     padding: 10px;
 }
-aside{
+.lado-direito{
     text-align: end;
     font-style: italic;
-    position: fixed;
-    height: 310px;
+    float: right;
+    height: auto;
     width: 242px;
-    left: 1014px;
-    top: 400px;
     padding:0 0 0 50px;
+    margin: 0 30px 0 0;
     /* border: 2px solid red; */
 }
 #img_linkedin{
@@ -99,11 +99,11 @@ aside{
     left: 1270px;
 }
 footer{
-    bottom: 0;
-    margin-bottom: 0;
     height: 13px;
+    bottom: 0;
+    margin-top: 250px;
+    padding: 20px;    
     text-align: center;
-    padding: 20px;
     background-color: #cf5c36;
     font-size: 18px;
     font-style: italic;

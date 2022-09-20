@@ -8,3 +8,17 @@ body{
 .visuallyhidden {
     display: none;
 }
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+.feito{
+    background-color: green;
+    color: azure;
+    font-weight: bold;
+}
+.aprender {
+    background-color: rgb(250, 250, 107);
+    color: rgb(39, 38, 38);
+    font-weight: bold;
+}

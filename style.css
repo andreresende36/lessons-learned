@@ -73,7 +73,7 @@ table, th, td{
     color: rgb(39, 38, 38);
     font-weight: bold;
 }
-.lado-esquerdo{
+article.lado-esquerdo{
     width: 73.5%;
     height: 130px;
     margin-top: 10px;
@@ -82,7 +82,7 @@ table, th, td{
     text-align: justify;
     padding: 10px;
 }
-.lado-direito{
+aside.lado-direito{
     text-align: end;
     font-style: italic;
     float: right;
